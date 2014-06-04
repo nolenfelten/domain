@@ -5,6 +5,6 @@ words are based on Loren Brichter`s Letterpress [dictionary](https://github.com/
 
 ## How to start
 
-Please check out `check.rb` to see how to use this script.  Run the
-script with `ruby check.rb`.  Obviously, before doing that, `bundle`
+Please check out `domain` file to see how to use this script.  Run the
+script with `./domain`.  Obviously, before doing that, `bundle`
 first.

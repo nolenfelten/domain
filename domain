@@ -1,12 +1,15 @@
+#!/usr/bin/env ruby
+
 require 'whois'
 
 TLD = '.me'
 
 File.open("./en.txt") do |file|
-  file.each do |line|
+  file.each_with_index do |line, index|
     word = line.strip
 
     # different requirements for the word
+    next if index < 1000 # start after this index
     next if word.length <= 3
     next if word.length >= 7
 
